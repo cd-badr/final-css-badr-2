@@ -11856,5 +11856,66 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.carousel-1 div .slider {
+  background-size: cover;
+  background-position: center;
+  height: 620px;
+}
+.carousel-1 div .img-1 {
+  background-image: url(../img/slider.jpg);
+}
+.carousel-1 div .img-1 div {
+  padding: 200px;
+  width: 65vw;
+}
+.carousel-1 div .img-2 {
+  background-image: url(../img/slider2.jpg);
+}
+.carousel-1 div .img-3 {
+  background-image: url(../img/slider3.jpg);
+}
+
+.crsl-btn-1 {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
+.crsl-btn-2 {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+
+.crsl-btns-btm {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+
+@media (max-width: 426px) {
+  .carousel-1 div .slider {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  .carousel-1 div .img-1 {
+    background-image: url(../img/slider.jpg);
+    background-position: left;
+  }
+  .carousel-1 div .img-1 div {
+    padding: 20px;
+    width: 100vw;
+  }
+  .carousel-1 div .img-1 div h1, .carousel-1 div .img-1 div .h1 {
+    font-size: 20px;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
