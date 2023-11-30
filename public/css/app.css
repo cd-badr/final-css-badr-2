@@ -12050,6 +12050,9 @@ video[poster] {
   height: 250px;
 }
 
+.input-telegram::placeholder {
+  color: white;
+}
 @media (max-width: 426px) {
   .carousel-1 div .slider {
     background-size: cover;
