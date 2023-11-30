@@ -11993,6 +11993,15 @@ video[poster] {
   object-fit: cover;
 }
 
+.sec-4 {
+  background-color: #4891da;
+  padding: 40px;
+  color: white;
+}
+.sec-4 div .btn-light {
+  color: #4891da;
+}
+
 @media (max-width: 426px) {
   .carousel-1 div .slider {
     background-size: cover;
