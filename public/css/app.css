@@ -12068,5 +12068,9 @@ video[poster] {
     font-size: 20px;
   }
 }
+.sec-final {
+  background-color: #edf2ff;
+  padding: 10px;
+}
 
 /*# sourceMappingURL=app.css.map */
