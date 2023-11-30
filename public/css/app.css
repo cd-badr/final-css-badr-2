@@ -12002,6 +12002,29 @@ video[poster] {
   color: #4891da;
 }
 
+.sec-6 {
+  background-color: #f9f9f9;
+  padding-bottom: 6vw;
+}
+.sec-6 .divs {
+  background-color: white;
+  border: 2px solid rgba(15, 14, 14, 0.1058823529);
+  width: 300px;
+  padding: 10px;
+}
+.sec-6 .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  padding: 0 28vw;
+  text-align: center;
+}
+.sec-6 .top h1, .sec-6 .top .h1 {
+  font-weight: bold;
+}
+
 @media (max-width: 426px) {
   .carousel-1 div .slider {
     background-size: cover;
