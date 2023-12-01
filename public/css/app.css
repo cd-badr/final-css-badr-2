@@ -12044,6 +12044,13 @@ footer div .ftr-divs {
   width: 25vw;
 }
 
+.maps {
+  width: 800px;
+  height: 500px;
+  margine: 50px;
+  box-shadow: 2px 2px 30px -20px black;
+}
+
 @media (max-width: 426px) {
   .carousel-1 div .slider {
     background-size: cover;
@@ -12151,6 +12158,12 @@ footer div .ftr-divs {
   }
   footer div .ftr-divs {
     width: 80vw;
+  }
+  .maps {
+    width: 800px;
+    height: 1050px;
+    margine: 50px;
+    box-shadow: 2px 2px 30px -20px black;
   }
 }
 
