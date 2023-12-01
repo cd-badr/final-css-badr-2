@@ -11916,14 +11916,14 @@ textarea.form-control-lg {
   font-size: 40px;
 }
 
-.sec-2 .bg-img {
+.sec-2 .bg-img, .sec-1-co .bg-img {
   background-image: linear-gradient(to bottom, rgba(58, 146, 234, 0.52), rgba(19, 58, 117, 0.73)), url(../img/bread-bg.jpg);
   height: 320px;
 }
-.sec-2 div {
+.sec-2 div, .sec-1-co div {
   color: white;
 }
-.sec-2 div .borderr {
+.sec-2 div .borderr, .sec-1-co div .borderr {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11934,7 +11934,7 @@ textarea.form-control-lg {
   margin-bottom: 20px;
   border-radius: 50%;
 }
-.sec-2 div .borderr i {
+.sec-2 div .borderr i, .sec-1-co div .borderr i {
   font-size: 20px;
   color: white;
 }
@@ -12098,6 +12098,10 @@ footer div .ftr-divs {
   .sec-2 .bg-img {
     height: 650px;
   }
+  .sec-1-co .bg-img {
+    height: 300px;
+    background-size: cover;
+  }
   .sec-1 .center {
     padding-top: 6vh;
     display: flex;
@@ -12161,7 +12165,7 @@ footer div .ftr-divs {
   }
   .maps {
     width: 800px;
-    height: 1050px;
+    height: 1100px;
     margine: 50px;
     box-shadow: 2px 2px 30px -20px black;
   }
